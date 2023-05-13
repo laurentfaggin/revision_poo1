@@ -7,31 +7,34 @@ namespace revision_poo1
 {
     public abstract class Liquide
     {
-        protected Produits m_produit;
         protected decimal m_quantite;
 
-        public string GetProduit
-        {
-            get {return this.m_produit; }
-        }
-        
         public decimal GetQuantite
         {
             get { return this.m_quantite; }
         }    
-        public decimal SetQuantite
+        private decimal SetQuantite
         {
             set { this.m_quantite=value; }
         }
 
-        public Liquide(Produits p_produit)
+        public Liquide(decimal p_quantite)
         {
-            this.m_produit=p_produit;
-        }
+            this.m_quantite=p_quantite;
+        }    
 
-        public void RetirerQuantiteLiquide( Produits p_produit, decimal p_quantite)
+        public decimal QuantiteLiquide()
+        {
+            return this.m_quantite;
+        }  
+        public void RetirerQuantiteLiquide(decimal p_quantite)
         {
             this.m_quantite -= p_quantite;
+        }
+
+        public override string ToString()
+        {
+            return "\t"+this.GetType().Name+": "+this.m_quantite+" ml\n";
         }
     }
 
