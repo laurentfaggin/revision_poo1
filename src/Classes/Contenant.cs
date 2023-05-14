@@ -73,25 +73,29 @@ namespace revision_poo1
             }
             foreach(Liquide l in this.m_liste_liquide)
             {   
-                decimal retrait = p_quantite*(l.QuantiteLiquide()/this.GetVolumeLiquide);
+                decimal retrait = Math.Round((p_quantite*(l.QuantiteLiquide()/this.GetVolumeLiquide)),2);
                 l.RetirerQuantiteLiquide(retrait);
                 this.m_capacite+=retrait;
                 this.m_volume_liquide-=retrait;
             }
         }
 
+        public decimal TauxRemplissage()
+        {
+            return Math.Round(((this.m_volume_liquide/this.m_capacite)*100),2);
+        }
+
         public override string ToString()
         {
-            Console.Clear();
             string message="";
             foreach(Liquide l in this.m_liste_liquide)
             {
                 message+="\t"+l.ToString();
             }
             return @"Les differents produits presents dans le contenant "+this.GetType().Name+" sont: \n" +
-            "\t"+message+"\n"+
-            "Volume utilise: "+this.GetVolumeLiquide+" ml\n"+
-            "Taux de remplissage: "+Math.Round(((this.m_volume_liquide*100)/this.m_capacite),2)+" %";                           
+            message+"\n"+
+            "Volume utilise: "+this.m_volume_liquide+" ml\n"+
+            "Taux de remplissage: "+this.TauxRemplissage().ToString()+" %";                           
         }
     }
 }

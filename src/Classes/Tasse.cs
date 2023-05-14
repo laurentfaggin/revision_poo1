@@ -9,7 +9,7 @@ namespace revision_poo1
     {
         public Tasse():base()
         {
-            this.SetVolumeContenant = 250;
+            this.SetCapacite = 250m*0.95m;
         }
     }
 }

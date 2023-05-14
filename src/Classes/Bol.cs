@@ -11,7 +11,7 @@ namespace revision_poo1
         {
             this.SetCapacite = 350m*0.95m;
         }
+
+     
     }
-
-
 }
