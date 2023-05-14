@@ -7,7 +7,7 @@ namespace revision_poo1
 {
     public class Tasse: Contenant
     {
-        public Tasse(string p_nom):base(p_nom)
+        public Tasse():base()
         {
             this.SetVolumeContenant = 250;
         }

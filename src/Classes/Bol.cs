@@ -7,9 +7,9 @@ namespace revision_poo1
 {
     public class Bol: Contenant
     {
-        public Bol(string p_nom): base(p_nom)
+        public Bol(): base()
         {
-            this.SetVolumeContenant = 350;
+            this.SetCapacite = 350m*0.95m;
         }
     }
 

@@ -7,7 +7,7 @@ namespace revision_poo1
 {
     public class Lait: Liquide
     {
-         public Creme(decimal p_quantite):base(p_quantite)
+         public Lait(decimal p_quantite):base(p_quantite)
         {
             
         }
