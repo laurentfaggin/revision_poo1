@@ -6,12 +6,12 @@ using Xunit;
 
 namespace revision_poo1
 {
-    public class test_revision_poo
+    public class test_revision_poo1
     {
         [Fact]
-        public void Test1()
+        public void jouterLiquide_10ml_cafe_tasse()
         {
-            Assert.True(true);
+            
         }
     }
 }

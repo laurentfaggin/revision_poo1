@@ -13,3 +13,8 @@ C:\C#\revision_poo1\revision_poo1\src\obj\Debug\net7.0\refint\src.dll
 C:\C#\revision_poo1\revision_poo1\src\obj\Debug\net7.0\src.pdb
 C:\C#\revision_poo1\revision_poo1\src\obj\Debug\net7.0\src.genruntimeconfig.cache
 C:\C#\revision_poo1\revision_poo1\src\obj\Debug\net7.0\ref\src.dll
+C:\C#\revision_poo1\revision_poo1\src\bin\Debug\net7.0\xunit.abstractions.dll
+C:\C#\revision_poo1\revision_poo1\src\bin\Debug\net7.0\xunit.assert.dll
+C:\C#\revision_poo1\revision_poo1\src\bin\Debug\net7.0\xunit.core.dll
+C:\C#\revision_poo1\revision_poo1\src\bin\Debug\net7.0\xunit.execution.dotnet.dll
+C:\C#\revision_poo1\revision_poo1\src\obj\Debug\net7.0\src.csproj.CopyComplete
