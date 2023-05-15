@@ -1,0 +1,12 @@
+C:\C#\revision_poo1\revision_poo1\Classes\bin\Debug\net7.0\Classes.deps.json
+C:\C#\revision_poo1\revision_poo1\Classes\bin\Debug\net7.0\Classes.dll
+C:\C#\revision_poo1\revision_poo1\Classes\bin\Debug\net7.0\Classes.pdb
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\Classes.csproj.AssemblyReference.cache
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\Classes.AssemblyInfoInputs.cache
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\Classes.AssemblyInfo.cs
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\Classes.csproj.CoreCompileInputs.cache
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\Classes.dll
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\refint\Classes.dll
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\Classes.pdb
+C:\C#\revision_poo1\revision_poo1\Classes\obj\Debug\net7.0\ref\Classes.dll
