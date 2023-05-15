@@ -80,6 +80,11 @@ namespace revision_poo1
             }
         }
 
+        public decimal QuantiteLiquide()
+        {
+            return this.m_volume_liquide;
+        }
+
         public decimal TauxRemplissage()
         {
             return Math.Round(((this.m_volume_liquide/this.m_capacite)*100),2);
@@ -96,6 +101,41 @@ namespace revision_poo1
             message+"\n"+
             "Volume utilise: "+this.m_volume_liquide+" ml\n"+
             "Taux de remplissage: "+this.TauxRemplissage().ToString()+" %";                           
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+
+            Contenant c = (Contenant)obj;
+
+            if (m_volume_liquide != c.m_volume_liquide)
+            {
+                return false;
+            }
+
+            if (m_liste_liquide.Count != c.m_liste_liquide.Count)
+            {
+                return false;
+            }
+
+            for (int i = 0; i < m_liste_liquide.Count; i++)
+            {
+                if (!m_liste_liquide[i].Equals(c.m_liste_liquide[i]))
+                {
+                    return false;
+                }
+            }
+
+            return true;    
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
 }
